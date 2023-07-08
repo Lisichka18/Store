@@ -43,6 +43,11 @@ class UserProfileView(TitleMixin, UpdateView):
         return context
 
 
+class EmailVerificationView(TitleMixin, TemplateView):
+    title = 'Store - Подтверждение электронной почты'
+    template_name = 'users/email_verification.html'
+
+
 # def login(request):
 #     if request.method == 'POST':
 #         form = UserLoginForm(data=request.POST)
