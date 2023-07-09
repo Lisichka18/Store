@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-($wuk!r73%w2an4u4)tgji#%t2s5=^#8!xop&ybxt7%2pk*4%(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+
+DOMAIN_NAME = 'http://localhost:8000'
 
 
 # Application definition
@@ -137,4 +139,3 @@ LOGIN_URL = '/users/login/'
 
 # Sending Emails
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
