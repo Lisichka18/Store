@@ -139,3 +139,8 @@ LOGIN_URL = '/users/login/'
 
 # Sending Emails
 
+EMAIL_HOST = 'smpt.yandex.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'st0re-market@yandex.ru'
+EMAIL_HOST_PASSWORD = 'Lvl23party'
+EMAIL_USE_SSL = True
