@@ -136,6 +136,6 @@ LOGOUT_REDIRECT_URL = '/'
 
 EMAIL_HOST = 'smtp.yandex.com'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = 'st0re-market@yandex.ru'
-EMAIL_HOST_PASSWORD = 'Lvl23party'
+EMAIL_HOST_USER = 'tzvorskaya18@yandex.ru'
+EMAIL_HOST_PASSWORD = '18112002nfyzmisha13051988'
 EMAIL_USE_SSL = True

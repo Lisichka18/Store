@@ -35,7 +35,7 @@ class UserProfileView(TitleMixin, UpdateView):
     title = 'Store - Личный кабинет'
 
     def get_success_url(self):
-        return reverse_lazy('user:profile', args=(self.object.id,))
+        return reverse_lazy('users:profile', args=(self.object.id,))
 
 
 class EmailVerificationView(TitleMixin, TemplateView):
